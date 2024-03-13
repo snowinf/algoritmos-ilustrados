@@ -15,4 +15,4 @@ def pesquisaBinaria(lista, item):
 
 minhaLista = [1, 3, 5, 7, 9]
 print(pesquisaBinaria(minhaLista, 3))
-print(PesquisaBinaria(minhaLista, -1)) 
+print(pesquisaBinaria(minhaLista, -1)) 
