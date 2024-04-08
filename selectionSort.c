@@ -1,22 +1,23 @@
 #include <stdio.h>
 
+//Declarando funções
 int tamanho(int arr[]);
 int buscaMenor(int arr[]);
 int selectionSort(int arr[]);
 
-
+//Função principal
 int main(){
-    int myArr[] = {64,25,12,22,11};
-    printf("%d", selectionSort(myArr));
-    return 0;
+    int myArr[] = {64,25,12,22,11}; //Cria uma array de 5 elementos desordenado
+    printf("%d", selectionSort(myArr)); //Printa o novo array ordenado, chamando a função selectionSort
 }
 
 
-int selectionSort(int arr[]){
-    int newArr[5];
-    for(int i=0;i <= tamanho(arr); i++){
-        int menor = buscaMenor(arr);
-        newArr[i] = arr[menor];
+int selectionSort(int arr[]){ // Declara a função selection sort, com o argumento do array inicial
+    int newArr[5]; // Cria um novo array
+    for(int i=0;i < tamanho(arr); i++){ // Faz um loop utilizando o tamanho total do array
+        int menor = buscaMenor(arr); //Adiciona o menor valor dentro da variavel menor, utilizando a função buscaMenor
+        newArr[] = arr[menor]
+        arr[menor] = 
     }
     return newArr[];
 }
